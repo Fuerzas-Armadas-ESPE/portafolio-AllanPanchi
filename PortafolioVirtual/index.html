@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Virtual - Allan Panchi</title>
+    <link rel="stylesheet" href="./Css/index.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <section class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href='#'>ALLAN</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobre-mi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </section>
+
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="./Img/img2.jpg" alt="">
+            </div>
+            <h1>ALLAN PANCHI</h1>
+            <h2>Estudiante de Ingeniera en Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/allan.pillajo.3/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/Allan61625475" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.instagram.com/allan_panchi/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://github.com/AllanPanchi?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="contenedor-sobremi">
+            <h2>Sobre Mi</h2>
+            <p><span>Bienvenido. Soy Allan Panchi,</span> un 
+                estudiante de Ingeniera de Software con un enfoque único y 
+                una visión innovadora. En mi portafolio virtual, te invito 
+                a que heches un vistazo a mis proyectos. Desde programación básica 
+                hasta el desarrollo web avanzado. Mi objetivo es mostrar cómo puedo 
+                contribuir de manera significativa a tus proyectos y metas. 
+                Si te llega a interesar lo que vas a ver, puedes ponerte en contacto 
+                conmigo para cualquier inquietud, consulta o colaboración
+            </p>
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            24-04-2003
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            0995151315
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            allanpanchi66@gmail.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-interes">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>Ciclismo</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Programar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Peliculas</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Futbol</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-readme"></i>
+                            <span>Leer</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Conducir</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button> -->
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenedor-skills">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & Css</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ética Profesional</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Aprendizaje continuo</span>
+                        <div class="barra-progreso">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenedor-curriculum">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación Básica</h4>
+                        <span class="casa">Unidad Educativa Jose de Antepara</span>
+                        <span class="fecha">2009 - 2014</span>
+                        <p>Cursé mis primeros años en una institución de educación
+                            pública, llegue a estar hasta el quinto año de educación básica
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Básica</h4>
+                        <span class="casa">Unidad Educativa Perla Azul</span>
+                        <span class="fecha">2013 - 2015</span>
+                        <p>Concluí mi primera etapa de educación en una institución 
+                            educativa privada y pase los cursos 6 y 7 de educación básica
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Media y Media Superior</h4>
+                        <span class="casa">Unidad Educativa Fiscomisional Don Bosca La Tola</span>
+                        <span class="fecha">2015 - 2020</span>
+                        <p>Cursé toda mi vida colegial en una sola institución educativa
+                            la cual es salesiana y enseña a todos sus estudiantes a ser
+                            buenos cristianos y honrados ciudadanos. 
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Superior</h4>
+                        <span class="casa">Univerdad de las Fuerzas Armadas - ESPE</span>
+                        <span class="fecha">2021 - Actualidad</span>
+                        <p>Actualmente estoy cursando una de las últimas estapas de mi vida
+                            estudiantil, me encuentro en quinto semestre en la universidad
+                            y estoy estudiando para graduarme en ingeniero en software
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Cursos</h3>
+                    <div class="item der">
+                        <h4>Idiomas</h4>
+                        <span class="casa">Instituto Guayasamin</span>
+                        <span class="fecha">2015 - 2017</span>
+                        <p>Conseguí el nivel B2 en un Instituto de idiomas que queda ubicado
+                            en el sur de Quito.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portafolio" id="portafolio">
+        <div class="contenedor-portafolio">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./Img/img3.png" alt="">
+                    <div class="overlay">
+                        <h3>GameLib</h3>
+                        <p>Página de reseñas sobre videojuegos hecha en 
+                            react.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./Img/img4.png" alt="" height="340px">
+                    <div class="overlay">
+                        <h3>Gestión de ordenes Di Tutto's</h3>
+                        <p>CRUD básico hecho en java para un restaurante.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./Img/img5.webp" alt="" height="340px">
+                    <div class="overlay">
+                        <h3>Asistencia</h3>
+                        <p>Sistema para la toma de asistencia hecho en c++
+                            con gráficos de BIG O.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./Img/img6.png" alt="" height="340px">
+                    <div class="overlay">
+                        <h3>Calculadora Polaca Inversa</h3>
+                        <p>Aplicacion hecha en c++ donde se 
+                            aplica pilas y colas.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./Img/img7.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Registro de Notas</h3>
+                        <p>Programa que maneja archivos y usa 
+                            estructuras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Numero">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-message"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="./Img/23.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Quito, Ecuador
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: 0995151315
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Correo: allanpanchi66@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/allan.pillajo.3/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/Allan61625475" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://www.instagram.com/allan_panchi/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://github.com/AllanPanchi?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="./Js/index.js"></script>
+</body>
+</html>
